@@ -15,7 +15,7 @@ class RfeStatusesSeeder extends Seeder
     {
         $statuses = ['draft','waiting for approval','approved','rejected','withdrawn'];
         foreach ($statuses as $status) {
-            RfeCategory::create([
+            RfeStatus::create([
                 'name' => $status
             ]);
         }

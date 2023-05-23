@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class RfeStatus extends Model
 {
     use HasFactory;
+    protected $table = 'rfe_statuses';
+    protected $fillable = ['name'];
+    public $timestamps = false;
 }
