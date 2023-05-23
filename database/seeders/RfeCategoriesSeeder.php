@@ -18,7 +18,8 @@ class RfeCategoriesSeeder extends Seeder
             'contact',
             'educations',
             'family_emergency_contact',
-            'work_experience'
+            'work_experience',
+            'certifications'
         ];
 
         foreach ($categories as $category) {
